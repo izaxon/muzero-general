@@ -592,7 +592,8 @@ if __name__ == "__main__":
             for i in range(len(options)):
                 print(f"{i}. {options[i]}")
 
-            choice = input("Enter a number to choose an action: ")
+#             choice = input("Enter a number to choose an action: ")
+            choice = '0'
             valid_inputs = [str(i) for i in range(len(options))]
             while choice not in valid_inputs:
                 choice = input("Invalid input, enter a number listed above: ")
